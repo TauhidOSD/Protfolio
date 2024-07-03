@@ -11,7 +11,7 @@ const Education = () => {
         },
         {
           degree: 'Higher Secondary Certificate in Science',
-          school: 'Narsingdi Public College',
+          school: 'Tangail School & College',
           year: '2019 - 2021',
           image: 'https://media.tenor.com/Q6DFaCAVumYAAAAi/science-penguin.gif', // Placeholder image URL
         },

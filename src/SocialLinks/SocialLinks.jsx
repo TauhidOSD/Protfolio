@@ -12,7 +12,7 @@ const SocialLinks = () => {
         {/* LinkedIn */}
         <li className="flex justify-between items-center w-36 h-10 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500">
           <Link
-            to="https://www.linkedin.com/in/rezuan-alam-rean/"
+            to="https://www.linkedin.com/in/tauhid-hossen/"
            
             className="flex justify-between items-center w-full text-white"
           >
@@ -25,7 +25,7 @@ const SocialLinks = () => {
         {/* Github */}
         <li className="flex justify-between items-center w-36 h-10 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500">
           <Link
-            to="https://github.com/Rezuan-Alam-Rean"
+            to="https://github.com/TauhidOSD"
             
             className="flex justify-between items-center w-full text-white"
           >
@@ -38,7 +38,7 @@ const SocialLinks = () => {
         {/* Facebook */}
         <li className="flex justify-between items-center w-36 h-10 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500">
           <Link
-            to="https://www.facebook.com/rean.bhuiyan.94"
+            to="https://www.facebook.com/tauhid.hossen.524/"
           
             className="flex justify-between items-center w-full text-white"
           >
@@ -50,7 +50,7 @@ const SocialLinks = () => {
 
         <li className="flex justify-between items-center w-36 h-10 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500">
           <a
-            href="mailto:rezuanrean.cse@gmail.com"
+            href="mailto:tauhidhossen04@gmail.com"
             className="flex justify-between items-center w-full text-white"
           >
             <>

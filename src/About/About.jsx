@@ -7,7 +7,7 @@
 // import Lottie from "lottie-react";
 // import animate from "../assets/Animation - 1702402205342.json";
 import useTitle from "../hooks/useTitle";
-import profile from "../assets/Banner/Rean Profile Pic 2.jpg"
+import profile from "../assets/Banner/profile.png"
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -46,7 +46,7 @@ const About = () => {
             <p className="text-white font-poppins ">
              
               
-              Hello ! I am Rezuan Alam rean. I am a Front-End Developer with a solid foundation in React,   JavaScript, html & CSS and familiar with  Node.js, Express and  MongoDB. I'm also  a student of  Computer Science and Engineering with a passion for coding. My Aim is to be a full-Stack Developer.
+              Hello ! I am Tauhid Hossen. I am a Front-End Developer with a solid foundation in React,   JavaScript, html & CSS and familiar with  Node.js, Express and  MongoDB. I'm also  a student of  Computer Science and Engineering with a passion for coding. My Aim is to be a full-Stack Developer.
               I'm currently expanding my
               knowledge by learning Next.js to become a well-rounded full-stack
               developer.  I'm excited about learning new technologies and

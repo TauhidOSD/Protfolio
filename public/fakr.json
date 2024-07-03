@@ -1,7 +1,7 @@
 [
     {
-        "name": "Asset Hexa",
-        "type": " Money Management",
+        "name": "Alternative-product",
+        "type": "product-Huning",
         "server_link": "https://github.com/NFRIDOY/Asset-Hexa-Server",
         "client_link": "https://github.com/NFRIDOY/Asset-Hexa",
         "live_link": "https://asset-hexa.web.app",

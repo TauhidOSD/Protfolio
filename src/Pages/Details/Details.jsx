@@ -1,27 +1,38 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import Slider from "../../Components/Slider/Slider";
 import Feature from "../../Components/Feature/Feature";
 import { SiSymantec } from "react-icons/si";
 import { FaArrowRight, FaGithub, FaSpinner } from "react-icons/fa";
-import useTitle from "../../hooks/useTitle";
+// import useTitle from "../../hooks/useTitle";
 
 const Details = () => {
-  useTitle('Project Details');
-  const { id } = useParams();
-  const [loader, setLoader] = useState(true);
-  const [data, setData] = useState();
+  const [data, setData] = useState({})
+
+  const { bookId } = useParams();
+
+  const details = useLoaderData();
 
   useEffect(() => {
-    fetch(`https://rean-portfolio-server.vercel.app/projects/${id}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-        setLoader(false);
-      });
-  }, [id]);
+      const findCart = details?.find((item) => item.bookId === bookId);
 
-  console.log(data);
+      setData(findCart);
+  }, [bookId, details]);
+  // useTitle('Project Details');
+  // const { id } = useParams();
+  // const [loader, setLoader] = useState(true);
+  // const [data, setData] = useState();
+
+  // useEffect(() => {
+  //   fetch(`https://rean-portfolio-server.vercel.app/projects/${id}`)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setData(data);
+  //       setLoader(false);
+  //     });
+  // }, [id]);
+
+  // console.log(data);
 
   const Technology = ({ f }) => {
     console.log(f);
@@ -41,11 +52,11 @@ const Details = () => {
 
   return (
     <>
-      {loader ? (
+      
         <div className="flex items-center justify-center h-32">
           <FaSpinner className="animate-spin text-white text-4xl" />
         </div>
-      ) : (
+      
         <div>
           <div className="mt-24">
           <Slider data={data}></Slider>
@@ -87,7 +98,7 @@ const Details = () => {
             ))}
           </div>
         </div>
-      )}
+      
     </>
   );
 };

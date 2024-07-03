@@ -63,7 +63,7 @@ const MySkills = () => {
         
                  <SkillCard icon={<BiLogoFigma size={50} className="object-contain w-[50%] text-purple-900" />} title="Figma" />
                  <SkillCard icon={<FaGithub size={50} className="object-contain w-[50%] text-white" />} title="GitHub" />
-                 <SkillCard icon={<FaStripe size={50} className="object-contain w-[50%] text-purple-500" />} title="Stripe" />
+                 {/* <SkillCard icon={<FaStripe size={50} className="object-contain w-[50%] text-purple-500" />} title="Stripe" /> */}
           </Slider>
         </div>
       </div>

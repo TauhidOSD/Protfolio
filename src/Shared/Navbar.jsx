@@ -61,7 +61,7 @@ const Navbar = () => {
         <Link to="/">
         <div>
           <p className=" hidden lg:block  text-2xl ml-10 text-white font-extrabold">
-            Rezuan<span className="text-pink-600">Rean</span>
+            Tauhid<span className="text-pink-600">Hossen</span>
           </p>
         </div>
       </Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
       <Link to="/">
         <div>
           <p className=" lg:hidden text-2xl  ml-10 text-white font-extrabold">
-            Rezuan<span className="text-pink-600">Rean</span>
+           Tauhid<span className="text-pink-600">Hossen</span>
           </p>
         </div>
       </Link>

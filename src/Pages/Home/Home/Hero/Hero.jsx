@@ -1,5 +1,5 @@
 
-import img from "../../../../assets/Banner/Rean Cover Github v2.jpg";
+import img from "../../../../assets/Banner/image.png";
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
         src={img}
         alt="banner"
         className="w-full h-auto object-cover"
-        style={{ maxHeight: "450px" }}
+        style={{ maxHeight: "560px" }}
       />
       {/* <div className="  absolute    bottom-0 right-0 ">
         <a href={resume} download={resume}>

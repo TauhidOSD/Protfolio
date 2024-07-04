@@ -52,17 +52,17 @@
             "It offers tools and resources for efficient building administration, maintenance, and operational management."
         ],
         "technology": [
-            " React router",
-            "React hook form",
-            "tanstack-query",
-            "axios",
-            "framer motion",
-            "react stripe js",
-            "react-responsive carousel",
-            "TailwindCSS",
-            "DaisyUI",
-            "Firebase Authentication",
-            "Express.js",
+            " React router, ",
+            "React hook form, ",
+            "tanstack-query, ",
+            "axios, ",
+            "framer motion, ",
+            "react stripe js, ",
+            "react-responsive carousel, ",
+            "TailwindCSS, ",
+            "DaisyUI, ",
+            "Firebase Authentication, ",
+            "Express.js, ",
             "MongoDB"
         ]
     },

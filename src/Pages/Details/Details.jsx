@@ -41,10 +41,10 @@ const Details = () => {
           <Link to={data.live_link}><button className="btn btn-sm px-4 bg-purple-200 text-black " >Live Website </button></Link>
         </div>
           <div>
-          <Link><button className="btn btn-sm px-4 bg-purple-200 text-black " >Client Code  </button></Link>
+          <Link to={data.client_link}><button className="btn btn-sm px-4 bg-purple-200 text-black " >Client Code  </button></Link>
         </div>
           <div>
-          <Link ><button className="btn btn-sm px-4 bg-purple-200 text-black " >Server Code</button></Link>
+          <Link to={data.server_link} ><button className="btn btn-sm px-4 bg-purple-200 text-black " >Server Code</button></Link>
         </div>
          </div>
         </div>

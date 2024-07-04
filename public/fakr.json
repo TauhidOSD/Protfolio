@@ -3,15 +3,13 @@
         "bookId":" 1",
         "name": "Alternative-product",
         "type": "product-Huning",
-        "server_link": "https://github.com/NFRIDOY/Asset-Hexa-Server",
-        "client_link": "https://github.com/NFRIDOY/Asset-Hexa",
-        "live_link": "https://asset-hexa.web.app",
+        "server_link": "https://github.com/TauhidOSD/Alternative-product-server-public",
+        "client_link": "https://github.com/TauhidOSD/Alternative-product-client-public",
+        "live_link": "https://dapper-monstera-63a538.netlify.app/",
         
-                "img1": "https://i.ibb.co/N6QXmqB/Screenshot-2024-03-07-025145.png",
-                "img2": "https://i.ibb.co/KrnTRBD/Screenshot-2024-03-07-025223.png",
-                "img3": "https://i.ibb.co/71Q0GLr/Screenshot-2024-03-07-025313.png",
-                "img4": "https://i.ibb.co/KrXgmG9/Screenshot-2024-03-07-025616.png"
-         ,
+                "img1": "https://i.postimg.cc/zvhhRf9Z/Whats-App-Image-2024-07-05-at-01-01-40-a56bc28d.jpg",
+                
+         
         "feature": [
             "This project is primarily about managing money, providing financial guidelines, and facilitating investment in businesses. In this project, users can create accounts and add daily income and expenses.",
             "They can also view their transactions and write money management blogs. Any user can like and comment on the blogs.",
@@ -22,8 +20,7 @@
             "React hook form",
             "tanstack-query",
             "axios",
-            "Redux",
-            "framer motion",
+           
             "react stripe js",
             "react-responsive carousel",
             "TailwindCSS",
@@ -35,17 +32,14 @@
     },
     {
         "bookId":" 2",
-        "name": "building-management",
+        "name": "Product_Hunt",
         "type": "Management",
-        "server_link": "https://github.com/Rezuan-Alam-Rean/building-management-server",
-        "client_link": "https://github.com/Rezuan-Alam-Rean/building-management-client",
-        "live_link": "https://b8a12-client-side-rezuan-alam-rean.vercel.app/",
+        "server_link": "https://github.com/TauhidOSD/Product-Hunt-server-public",
+        "client_link": "https://github.com/TauhidOSD/Product-Hunt-Client-Public",
+        "live_link": "https://soft-lolly-70fdf7.netlify.app/",
         
-                "img1": "https://i.ibb.co/bJyD236/Screenshot-2023-12-11-223125.png",
-                "img2": "https://i.ibb.co/bJyD236/Screenshot-2023-12-11-223125.png",
-                "img3": "https://i.ibb.co/bJyD236/Screenshot-2023-12-11-223125.png",
-                "img4": "https://i.ibb.co/bJyD236/Screenshot-2023-12-11-223125.png"
-         ,
+                "img1": "https://i.postimg.cc/1zKW2zQw/Whats-App-Image-2024-07-05-at-01-25-36-0e5260ab.jpg",
+              
         "feature": [
             "Building Management is a comprehensive platform designed to streamline",
             "it also optimize the management of various aspects within buildings.",
@@ -56,8 +50,8 @@
             "React hook form, ",
             "tanstack-query, ",
             "axios, ",
-            "framer motion, ",
-            "react stripe js, ",
+           
+            
             "react-responsive carousel, ",
             "TailwindCSS, ",
             "DaisyUI, ",
@@ -68,17 +62,14 @@
     },
     {
         "bookId":" 3",
-        "name": "Online-Group-Study",
-        "type": "Group-Study",
-        "server_link": "https://github.com/Rezuan-Alam-Rean/Online-Group-Study-server",
-        "client_link": "https://github.com/Rezuan-Alam-Rean/Online-Group-Study-client",
-        "live_link": "https://online-group-study-client.vercel.app/",
+        "name": "Tourst County",
+        "type": "Tourist",
+        "server_link": "https://github.com/TauhidOSD/Tourism-server-public",
+        "client_link": "https://github.com/TauhidOSD/Tourism-client-public",
+        "live_link": "https://magenta-tulumba-4b5708.netlify.app/",
        
-                "img1": "https://i.ibb.co/BNZQqF4/Screenshot-2023-12-11-223305.png",
-                "img2": "https://i.ibb.co/BNZQqF4/Screenshot-2023-12-11-223305.png",
-                "img3": "https://i.ibb.co/BNZQqF4/Screenshot-2023-12-11-223305.png",
-                "img4": "https://i.ibb.co/BNZQqF4/Screenshot-2023-12-11-223305.png"
-        ,
+                "img1": "https://i.postimg.cc/Dz5g5Yrc/Whats-App-Image-2024-07-05-at-01-34-28-302d1f56.jpg",
+            
         "feature": [
             "Online-Group-Study offers a wide range of educational resources and assignments to support your learning needs.",
             "From a variety of study materials to assignment solutions that will help you excel in your academic pursuits, we have everything to make your studying experience more effective and enjoyable.",
@@ -90,24 +81,21 @@
             "Firebase Authentication",
             "TailwindCSS",
             "DaisyUI",
-            "Firebase Authentication",
+           
             "Express.js",
             "MongoDB"
         ]
     },
     {
         "bookId":" 4",
-        "name": "Brand Shop",
-        "type": " Shop",
-        "server_link": "https://github.com/Rezuan-Alam-Rean/brandshop-server",
-        "client_link": "https://github.com/Rezuan-Alam-Rean/brandshop-client",
-        "live_link": "https://brandshop-client.vercel.app/",
+        "name": "Indrustial Project",
+        "type": " Indrusto",
+        "server_link": "",
+        "client_link": "https://github.com/TauhidOSD/Indrusto-project-public",
+        "live_link": "https://clever-kheer-0e7947.netlify.app/",
         
-                "img1": "https://i.ibb.co/gtXhFnz/Screenshot-2023-12-11-222925.png",
-                "img2": "https://i.ibb.co/gtXhFnz/Screenshot-2023-12-11-222925.png",
-                "img3": "https://i.ibb.co/gtXhFnz/Screenshot-2023-12-11-222925.png",
-                "img4": "https://i.ibb.co/gtXhFnz/Screenshot-2023-12-11-222925.png"
-         ,
+                "img1": "https://i.postimg.cc/3J7zLzps/Whats-App-Image-2024-07-05-at-02-17-44-2466d86d.jpg",
+           
         "feature": [
             "Brand Shop is an online platform dedicated to selling phones from a wide array of brands.",
             " It provides customers with a convenient and reliable avenue to explore and purchase smartphones from their favorite manufacturers.",
@@ -117,33 +105,44 @@
             " React router",
             " React to print",
             "React lazy load",
-            "React Bootstrap",
+            
             "Swiper",
             "Firebase Authentication",
             "Express.js"
         ]
     },
     {
-        "bookId":" 4",
+        "bookId":" 5",
+        "name": "HocKey Game ",
+        "type": "HocKey's",
+        "server_link": "",
+        "client_link": "https://github.com/TauhidOSD/Assignment-3",
+        "live_link": "https://tauhidosd.github.io/Assignment-3/",
+       
+                "img1": "https://i.postimg.cc/L8Q78X7S/Whats-App-Image-2024-07-05-at-02-20-40-9f1c22d8.jpg",
+           
+        "technology": [
+           
+            "CSS",
+            "DaisyUI"
+            
+        ]
+    },
+    {
+        "bookId":" 6",
         "name": "Gaming-Conventions",
         "type": "Conventions",
-        "server_link": "https://stellular-cuchufli-925f21.netlify.app/",
-        "client_link": "https://github.com/Rezuan-Alam-Rean/Gaming-Conventions",
-        "live_link": "https://stellular-cuchufli-925f21.netlify.app/",
+        "server_link": "",
+        "client_link": "https://github.com/TauhidOSD/Assignment-2",
+        "live_link": "https://tauhidosd.github.io/Assignment-2/",
        
-                "img1": "https://i.ibb.co/1mdPC6w/Screenshot-2023-12-11-223610.png",
-                "img2": "https://i.ibb.co/1mdPC6w/Screenshot-2023-12-11-223610.png",
-                "img3": "https://i.ibb.co/1mdPC6w/Screenshot-2023-12-11-223610.png"
-         ,
+                "img1": "https://i.postimg.cc/Kc7HgQVJ/Whats-App-Image-2024-07-05-at-02-27-08-0eeff09f.jpg",
+           
         "technology": [
-            " React router",
-            "React hook form",
-            "tanstack-query",
-            "lottie-react",
-            "TailwindCSS",
-            "DaisyUI",
-            "Authentication",
-            "Private/Protected Routes:"
+           
+            "CSS",
+            "DaisyUI"
+            
         ]
     }
 ]

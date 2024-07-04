@@ -28,7 +28,7 @@ const AllProject = () => {
       ) : (
         <div className="grid md:grid-cols-3 mt-36  gap-5">
           {data?.map((pd) => (
-            <ProjectCard key={pd?._id} pd={pd}></ProjectCard>
+            <ProjectCard key={pd?.bookId} pd={pd}></ProjectCard>
           ))}
         </div>
       )}

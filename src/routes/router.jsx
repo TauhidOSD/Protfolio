@@ -20,10 +20,12 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/details/:id",
-        element: <Details></Details>,
-        
-      },
+        path:'/:bookId',
+        element:<Details></Details>,
+        loader: ()=> fetch('./fakr.json')
+       
+ 
+       },
       {
         path: "/allProject",
         element: <AllProject></AllProject>,

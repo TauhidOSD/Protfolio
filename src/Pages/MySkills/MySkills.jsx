@@ -18,6 +18,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Education from "../Home/Home/Education/Education";
+import useTitle from "../../hooks/useTitle";
 
 const MySkills = () => {
   const settings = {
@@ -37,7 +38,7 @@ const MySkills = () => {
       }
     ]
   };
-
+  useTitle('My Skills')
   return (
     <div>
       <div id="skills" className="mt-[85px] container mb-10 mx-auto px-2 sm:px-4 lg:px-1">

@@ -3,6 +3,7 @@ import animate from "../../assets/Animation - 1702402794506.json";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from "react-hot-toast";
+import useTitle from "../../hooks/useTitle";
 
 const Contact = () => {
   const form = useRef();
@@ -19,7 +20,7 @@ const Contact = () => {
         console.error('Email error:', error);
       });
   };
-
+  useTitle('Contact')
   return (
     <>
       <p className="text-4xl font-bold text-center text-white mb-5 mt-10">

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ProjectCard from "../../../../Shared/ProjectCard/ProjectCard";
 import { Link } from "react-router-dom";
 import { FaSpinner } from "react-icons/fa";
+import useTitle from "../../../../hooks/useTitle";
 
 
 const Project = () => {
@@ -14,7 +15,8 @@ const Project = () => {
             .then(data => setData(data))
         setLoader(false)
     }, [])
-
+    console.log(data);
+    useTitle('project')
     return (
         <>
 
@@ -29,7 +31,7 @@ const Project = () => {
                     <h1 className="font-5xl font-poppins font-extrabold border-b-8  border-dimBlue text-white mb-10"></h1>
                     <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
                         {
-                            data?.slice(0, 3).map(pd => <ProjectCard key={pd?._id} pd={pd}></ProjectCard>)
+                            data?.slice(0, 3).map(pd => <ProjectCard key={pd?.bookId} pd={pd}></ProjectCard>)
                         }
                     </div>
                     <div className="text-right mr-3 mt-10">

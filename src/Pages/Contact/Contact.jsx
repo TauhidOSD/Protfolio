@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <>
       <p className="text-4xl font-bold text-center text-white mb-5 mt-10">
-        Contact Me
+        Contact with Me
       </p>
       <h1 className="font-5xl font-poppins font-extrabold border-b-8  border-dimBlue text-white mb-10"></h1>
 
